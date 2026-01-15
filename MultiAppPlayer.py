@@ -1,7 +1,7 @@
 #Multiple App Player
 
 Print=("***Multiple App player***")
-selec=int(input("Select An APP You Want To Work:\n1.Calculator \n2.Student Marksheet\n3.Clothing Store \n4.Car Recommendation :"))
+select=int(input("Select An APP You Want To Work:\n1.Calculator \n2.Student Marksheet\n3.Clothing Store \n4.Car Recommendation :"))
 
 if select==1:
     method=input("What You Want To Do ?\n1.Addition \n2.Subraction \n3.Devision \n4.Multiply:")
@@ -28,20 +28,20 @@ elif select==2:
     if per>=90:
         print(f"Dear {name} , Your Percentage is {per} and Your Grade Is A++.")
     elif per>=80:
-        print(f"Dear {name} , Your Your Percentage is {per} and Your Grade Is A+.")
+        print(f"Dear {name} , Your Percentage is {per} and Your Grade Is A+.")
     elif per>=70:
-        print(f"Dear {name} , Your Your Percentage is {per} and Your Grade Is A.")
+        print(f"Dear {name} , Your Percentage is {per} and Your Grade Is A.")
     elif per>=60:
-        print(f"Dear {name} , Your Your Percentage is {per} and Your Grade Is B.")
+        print(f"Dear {name} , Your Percentage is {per} and Your Grade Is B.")
     elif per>=50:
-        print(f"Dear {name} , Your Your Percentage is {per} and Your Grade Is C.")
+        print(f"Dear {name} , Your Percentage is {per} and Your Grade Is C.")
     else:
         print(f"Dear {name} , You Have Failed.")
 elif select==3:
     name=input("Enter Your Name:")
     budget=int(input("Enter Your Budget To Watch Which Clothes You Lie On:"))
     if (budget>=50000 and budget <1000000):
-        print(f"Dear {name} , You Can Buy Part Wear.")
+        print(f"Dear {name} , You Can Buy Party Wear.")
     elif (budget>=30000 and budget <50000):
         print(f"Dear {name} , You Can Buy Formal Wear.")
     elif (budget>=4000 and budget <30000):
